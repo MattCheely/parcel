@@ -18,6 +18,7 @@
       "@parcel/transformer-html"
     ],
     "*.coffee": ["@parcel/transformer-coffeescript"],
+    "*.elm": ["@parcel/transformer-elm"],
     "*": ["@parcel/transformer-raw"]
   },
   "namers": ["@parcel/namer-default"],
